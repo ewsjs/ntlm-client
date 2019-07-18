@@ -1,9 +1,9 @@
-# ntlm-client
+# @ewsjs/ntlm-client (original: ntlm-client)
 
-A node.js NTLM client with support for NTLM and NTLMv2 authentication
+A node.js NTLM client with support for NTLM and NTLMv2 authentication, forked from [clncln1/node-ntlm-client](https://github.com/clncln1/node-ntlm-client), see [reason for forking](https://github.com/gautamsi/ews-javascript-api/issues/309) and the PR https://github.com/clncln1/node-ntlm-client/pull/4 which is stuck at the time of publishing
 
 ```
-npm install ntlm-client
+npm install @ewsjs/ntlm-client
 ```
 
 ## API
