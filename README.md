@@ -8,7 +8,8 @@ npm install @ewsjs/ntlm-client
 
 ## API
 
-#### request(options)
+#### request(options) (OPTIONAL)
+> `request` is removed from dependency. to use this you have to add `request` in dependency and import like this `const ntlmrequest = require('@ewsjs/ntlm-client/lib/ntlmrequest')`. You also need to add `extend` in dependency.
 
 A convenience function that tries to authenticate against a given URL using the `request` module.
 If NTLM is not supported, it will fallback to Basic Auth.
