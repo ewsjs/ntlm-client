@@ -6,6 +6,9 @@ A node.js NTLM client with support for NTLM and NTLMv2 authentication, forked fr
 npm install @ewsjs/ntlm-client
 ```
 
+## UPDATE 3.0
+Fixes node 18+ issues with removed md4 and des ciphers, solution ref https://github.com/SamDecrock/node-http-ntlm/pull/107
+
 ## API
 
 #### request(options) (OPTIONAL)
