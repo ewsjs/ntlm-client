@@ -1,6 +1,6 @@
 {
   "name": "@ewsjs/ntlm-client",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A node.js NTLM client with support for NTLM and NTLMv2 authentication, forked from clncln1/node-ntlm-client",
   "keywords": [
     "ntlm",
