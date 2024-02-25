@@ -26,5 +26,9 @@
   "license": "MIT",
   "optionalDependencies": {
     "extend": "^3.0.2"
+  },
+  "dependencies": {
+    "des.js": "^1.1.0",
+    "js-md4": "^0.3.2"
   }
 }
